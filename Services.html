@@ -1,0 +1,137 @@
+<html>
+
+<head>
+
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+   <header class="navbar">
+    <div class="logo">INKHUB</div>
+    <nav>
+      <a href="index.html">Homepage</a>
+	  <a href="About us.html">About us</a>
+      <a href="Services.html">Services</a> 
+    </nav>
+	
+     <!-- Search Bar -->
+    <form class="search-box" action="#" method="get">
+        <input 
+            type="text" 
+            name="search" 
+            placeholder="Search here..." 
+            required
+        >
+        <button type="submit">🔍</button>
+    </form>
+  </header>
+ 
+<section class="pricing">
+    <h1>Services</h1>
+
+    <div class="pricing-container">
+
+        <div class="card">
+            <h2>Laminating</h2><br>
+            <button onclick="openPopup('laminating')">Click here</button>
+        </div>
+
+        <div class="card highlight">
+            <h2>Printing and Photostat</h2><br>
+            <button onclick="openPopup('printing')">Click here</button>
+        </div>
+
+        <div class="card">
+            <h2>Binding</h2><br>
+            <button onclick="openPopup('binding')">Click here</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- POPUP -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+
+        <div id="laminating" class="popup-info">
+            <h2>Laminating Service</h2>
+			<p>✔ RM1.80 per page</p>
+            <p>✔ A4 size</p>
+            <p>✔ Glossy & Matte finish</p>
+            <p>✔ Waterproof</p>
+            <p>✔ Ready in 10 minutes</p>
+        </div>
+
+        <div id="printing" class="popup-info">
+            <h2>Printing & Photostat</h2>
+            <p>✔ Black & White: RM0.30</p>
+			<p>✔ Colour: RM0.50</p>
+            <p>✔ A4 size</p>
+            <p>✔ High-speed printing</p>
+            <p>✔ Instant service</p>
+        </div>
+
+        <div id="binding" class="popup-info">
+            <h2>Binding Service</h2>
+            <p>✔ Comb: RM1.50</p>
+			<p>✔ Tape: RM0.50</p>
+            <p>✔ Report binding</p>
+            <p>✔ Neat & Durable finish</p>
+            <p>✔ Same-day service</p>
+        </div>
+    </div>
+</div>
+</section>
+
+
+ <div class="payment-buttons">
+      <a href="https://forms.gle/Av6LjyCHEppqbJyr8" target="_blank" class="btn Form">
+        <i class="fab fa-Form"></i> Payment Here 💳
+      </a>
+     
+  </div>
+  
+ </div>
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Column 1: Company Info -->
+    <div class="footer-column">
+      <h3>InkHub</h3>
+      <p>© 2026 InkHub. All Rights Reserved.</p>
+      <p><em>Last updated: 10 January 2026</em></p>
+    </div>
+
+    <!-- Column 2: Contact & Hours -->
+    <div class="footer-column">
+      <h3>Contact Us</h3>
+      <p>
+        📍 <a href="https://maps.app.goo.gl/uCdAYJp8qrxPeEh7A" target="_blank">Taman Lembah Bujang, Bedong, Kedah.</a><br>
+        📞 <a href="tel:+60123456789">+60 12-345 6789</a><br>
+        ✉️ <a href="mailto:inkhub.print@gmail.com">inkhub.print@gmail.com</a>
+      </p>
+      <p>
+        🕒 <strong>Operation Hours</strong><br>
+        Daily: 9:00a.m.-17:00p.m.
+      </p>
+    </div>
+
+    <!-- Column 3: Social Media -->
+    <div class="footer-column">
+      <h3>Follow Us</h3>
+      <p class="social">
+        <a href="https://wa.me/60123456789" target="_blank">💬 WhatsApp</a><br>
+        <a href="https://www.instagram.com/inkhub.print?igsh=dXRncnBjOXV1MXUy" target="_blank">📷 Instagram</a>
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
